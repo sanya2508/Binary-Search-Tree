@@ -17,7 +17,16 @@ Worst case: O(n) in case of skewed case.
 
 
 ## <a href="https://github.com/sanya2508/Binary-Search-Tree/blob/master/BSTdeletion.cpp">BST: Deletion</a>
-
+ * 3 types of nodes:
+   1. Leaf node(no child)
+      * Come to that node, delete and return NULL.
+   2. One child
+      * Either left child will not be NULL, or right child will not be NULL.
+      * Return the child of the node to be deleted to the parent of the node to be deleted.
+   3. Two child
+      * We need someone who can replace the node to be deleted.
+      * Root node should be replaced by immediate predecessor or successor.
+      
 
 ## <a href="https://github.com/sanya2508/Binary-Search-Tree/blob/master/checkForBST.cpp">Check for BST</a>
 
