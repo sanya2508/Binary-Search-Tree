@@ -5,10 +5,13 @@ Search is an expensive operation in Binary Tree! Worst case complexity: O(n)
 BST is a special kind of binary tree where elements are ordered such that all the elements smaller than the current node goes to the left side and all the elements greater or equal to the current node goes to the right side.
 
 Each sub-tree should be a BST.
+
 <hr/>
 
 For efficient searching we can apply binary search! 
+
 Average case: O(logn) or O(h) in case of Balanced Tree.
+
 Worst case: O(n) in case of skewed case.
 <hr/>
 
