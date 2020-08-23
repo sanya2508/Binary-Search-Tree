@@ -37,7 +37,7 @@ Worst case: O(n) in case of skewed case.
 <hr/> 
 
 ## <a href="https://github.com/sanya2508/Binary-Search-Tree/blob/master/checkForBST.cpp">Check for BST</a>
- * root should lie in between the maximum value on the left and minimum value on the left, and the left and right sub-tree must be a BST.
+ * root should lie in between the maximum value on the left and minimum value on the right, and the left and right sub-tree must be a BST.
  * Bottom-up approach
  * Top-down approach (in the link).
 
